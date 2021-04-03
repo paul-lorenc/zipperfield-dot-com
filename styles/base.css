@@ -1,7 +1,17 @@
-.sticky-nav {
-  position: sticky;
-  z-index: 10;
-  top: 0;
-  backdrop-filter: saturate(180%) blur(20px);
-  transition: background-color 0.1 ease-in-out;
+.Wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.Main-Container {
+  display: grid;
+  row-gap: 20px;
+  width: 50vw;
+}
+
+.Heading {
+  font-size: 2rem;
+  font-weight: bold;
 }

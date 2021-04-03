@@ -1,8 +1,12 @@
-import { Container } from "@/components/Container";
+import Hero  from "@/components/Hero";
+
 export default function Home() {
   return (
-    <Container>
-      <h1 className="font-serif text-2xl font-extrabold">Zipperfield</h1>
-    </Container>
+    <div className="Wrapper">
+      <div className="Main-Container">
+        <h1 className="Heading">Under Maintenance</h1>
+        <Hero/>
+      </div> 
+   </div>
   );
 }
