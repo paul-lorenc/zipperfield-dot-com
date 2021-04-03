@@ -1,13 +1,22 @@
 .Wrapper {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: grid;
   place-items: center;
 }
 
 .Main-Container {
+  margin-top: 50px;
   display: grid;
   row-gap: 20px;
+  max-width: 550px;
+}
+
+.w80 {
+  width: 80vw;
+}
+
+.w50 {
   width: 50vw;
 }
 
